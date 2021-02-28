@@ -35,11 +35,22 @@ a:hover {
 }
 
 .article-author {
+    font-size: 13px;
+    font-weight: bolder;
+    margin: 2.2em 0 1em;;
+    padding: 0;
+}
 
+.article-author a {
+    text-decoration: underline;
+}
+
+#article-container {
+    width: 45%;
 }
 
 .article-credit-container {
-
+    margin-bottom: 2em;
 }
 
 .article-credits {
@@ -50,6 +61,10 @@ a:hover {
 
 }
 
+.article-image-group-container {
+    width: 200%;
+}
+
 .article-image-container {
 
 }
@@ -58,16 +73,32 @@ a:hover {
     width: 50%;
 }
 
+.article-paragraph {
+    font-size: 20px;
+    color: #333333;
+}
+
 .article-section {
 
 }
 
 .article-subscribe {
+    font-size: 15px;
+    text-align: center;
+    margin: 1.2em 0;
+    color: #333333;
+}
 
+.article-subscribe a {
+    color: #326891;
+}
+
+.article-subscribe a:hover {
+    text-decoration: none;
 }
 
 .article-time {
-    
+    font-size: 13px;
 }
 
 .back-to-homepage {
@@ -204,30 +235,41 @@ a:hover {
 }
 
 #main-container {
-
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #main-image-container {
+    width: 70%;
 }
 
 #main-image-container img {
-    width: 50%;
+    width: 100%;
 }
 
 #main-img-credit {
-
+    color: #888888;
+    font-size: 12px;
 }
 
 #main-img-description {
-    
+    color: #666666;
+    font-size: 15px;
+    margin-top: 0.7em;
+    width: 75%;
 }
 
-#main-title {
-    
+#main-title h1 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: italic;
 }
 
 #main-title-container {
-
+    width: 45%;
 }
 
 .ny-button {
@@ -252,14 +294,42 @@ a:hover {
     background-color: #3f6077;
 }
 
-.toolbar {
-
+.short-hr {
+    width: 10%;
+    border-top: 1px solid rgb(190, 190, 190);
 }
 
-.toolbar-blank-icon {
-
+.toolbar {
+    margin: 1.1em 0 1.6em;
+    position: relative;
+    right: 0.4em;
+    z-index: -1;
 }
 
 .toolbar-icon {
+    background-color: rgb(236, 236, 236);
+    border: 0px solid rgb(146, 146, 146);
+    border-radius: 25px;
+    padding: 5px;
+    margin: 0 0.4em;
+}
 
+.toolbar-blank-icon {
+    font-size: 1.5em !important;
+    margin: 0 0.3em;
+    position: relative;
+    top: 1px;
+}
+
+.fa-facebook {
+    padding: 5px 8px;
+}
+
+.fa-whatsapp {
+    padding: 5px 6px;
+}
+
+.fa-bookmark-o {
+    position: relative;
+    top: 3px;
 }
