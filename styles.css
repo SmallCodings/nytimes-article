@@ -1,3 +1,9 @@
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 #additional-aside-container {
 
 }
@@ -67,7 +73,7 @@
 }
 
 #footer-nav {
-    
+
 }
 
 #footer-sub-ad {
@@ -78,16 +84,60 @@
 
 }
 
-#header-container {
+.header-search {
+    position: relative;
+    left: 2em;
+}
 
+#header-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    right: 20px;
+}
+
+#header-container {
+    top: 0;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 42px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+#header-nav-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 20px;
 }
 
 #header-section-title {
+    padding: 0;
+    margin: 0;
+    font-family: helvetica,arial,sans-serif;
+    position: relative;
+    left: 4em;
+}
 
+#header-subscribe-button {
+    position: relative;
+    right: 10px;
 }
 
 #header-title, #footer-title {
+    padding: 0;
+    margin: 0;
+    width: 195px;
+}
 
+#header-title-container {
+    display: flex;
+    align-items: center;
 }
 
 .image-group-container {
@@ -134,7 +184,12 @@
 }
 
 .ny-button {
-
+    background-color: #567B95;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', helvetica,arial,sans-serif;
+    padding: 9px 12px 6px;
+    border: 1px solid #354c5c;
+    border-radius: 3px;
 }
 
 
