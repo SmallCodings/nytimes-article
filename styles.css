@@ -14,6 +14,12 @@ a:hover {
     text-decoration: underline;
 }
 
+article h2 {
+    font-size: 20px;
+    font-weight: 550;
+    margin: 1em 0 0;
+}
+
 #additional-aside-container {
 
 }
@@ -45,7 +51,7 @@ a:hover {
     text-decoration: underline;
 }
 
-#article-container {
+.article-container {
     width: 45%;
 }
 
@@ -58,19 +64,49 @@ a:hover {
 }
 
 .article-description {
-
+    font-size: 15px;
+    color: #666666;
+    width: 90%;
+    margin-bottom: 3em;
+    margin-top: 0.5em;
 }
 
-.article-image-group-container {
-    width: 200%;
+
+.article-description span {
+    color: #888888;
+    font-size: 12px;
 }
 
-.article-image-container {
+#article-group-paragraph-first {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 140px;
+    width: 100%;
+    font-size: 14px;
+}
 
+
+#article-image-group-container {
+    width: 70%;
+}
+
+#article-image-group-container h2 {
+    font-size: 20px;
+    font-weight: 550;
+    margin: 1em 0 0;
+}
+
+#article-image-group-description {
+    font-size: 14px;
+    margin: 0.4em 0;
+    color: #666666;
 }
 
 .article-image-container img {
-    width: 50%;
+    margin: 2em 0 0;
+    width: 100%;
 }
 
 .article-paragraph {
@@ -99,6 +135,10 @@ a:hover {
 
 .article-time {
     font-size: 13px;
+}
+
+.article-video {
+    margin-top: 2em;
 }
 
 .back-to-homepage {
@@ -219,7 +259,7 @@ a:hover {
 }
 
 .image-group-container {
-
+    
 }
 
 .image-group-description {
